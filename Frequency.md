@@ -23,5 +23,7 @@ In 5G, there is a new concept, **Bandwidth part(BWP)**, which means there are ma
 2. Parameter _absoluteFrequencyPointA_ for all other cases where _absoluteFrequencyPointA_ represents the frequency-location of point A expressed as in ARFCN.\
 In SSB, the following pic shows the two parameters: K_ssb and $N_{CRB}^{SSB}$, to decide the position of SSB in band.\
 ![image](https://github.com/ZepherL1/5G/assets/157103546/8bdb6fe6-79cb-45e7-826c-5b7ea688a092)\
-The K_ssb is in the unit of SCS of SSB, while $N_{CRB}^{SSB}$ is in the unit of SCS of the band.
+The K_ssb is in the unit of SCS of SSB, while $N_{CRB}^{SSB}$ is in the unit of SCS of the band.\
+**ATTENTION!**\
+According to [Vikas.nain](https://www.telecomhall.net/uploads/db2683/original/2X/d/d86a260697cc2197e0859aea6d3b03b2f3f39b8d.png), the difference of **CRB** and **PRB** is quite clearly illustrated. In short, CRB represents the very begining of resource block of one BAND, and PRB is the beging of BWP\
 [Continue to updating...]
